@@ -27,8 +27,13 @@ export default function Weather() {
             </p>
           </div>
           <div className="temperature-container">
-            <div></div>
-            <div className="temperature-value"></div>
+            <div>
+              <img
+                src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
+                alt="icon"
+              />
+            </div>
+            <div className="temperature-value">18</div>
             <div className="temperature-unit">°C</div>
           </div>
         </div>
